@@ -1,149 +1,151 @@
 <!DOCTYPE html>
-<head>
-    <title>Dataku</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/image/dataku.ico" />
-    <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <div id="nav-logo">
-                <a href="#" onClick="return scrollToElement('main', 'id', event);"><img id="logo" src="assets/image/logo_dataku.svg"></a>
-            </div>
-            <div id="nav-section">
-                <div id="menu-container">
-                    <a id="menu" alt="#"><img src="assets/image/ic_menu.svg" alt="menu"></a>
-                    <ul id="menu-items">
-                        <li><a href="#kelebihan" onClick="return scrollToElement('kelebihan', 'id', event);">Kelebihan</a></li>
-                        <li><a href="#project" onClick="return scrollToElement('project', 'id', event);">Project</a></li>
-                        <li><a href="#testimoni" onClick="return scrollToElement('testimoni', 'id', event);">Testimoni</a></li>
-                        <li><a id="nav-item-about" href="#about" onClick="scrollToElement('about', 'id', event);">Tentang</a></li>
-                    </ul>
+<html>
+    <head>
+        <title>Dataku</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/image/dataku.ico" />
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div id="nav-logo">
+                    <a href="#" onClick="return scrollToElement('main', 'id', event);"><img id="logo" src="assets/image/logo_dataku.svg"></a>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <script src="assets/action.js"></script>
-        <div id="content">
-            <article id="main">
-                <img class="flex-main-item" src="assets/image/img_main.svg">
-                <div class="flex-main-item">
-                    <h1>Solusi dalam menganalisis data</h1>
-                    <p>Anda punya data yang sangat banyak tapi bingung harus diapakan? Berikan lah pada kami!<br>
-                        <br>Dataku akan buatkan analisis yang bisa meningkatkan keuntungan perusahaan Anda.</p>
-                </div>
-            </article>
-            <article id="kelebihan">
-                <h1>Kelebihan kami</h1>
-                <div id="flex-container-column">
-                    <div class="flex-container-row">
-                        <div class="flex-strength-item"><img src="assets/image/pie_chart_x_plot.svg"></div>
-                        <div class="flex-strength-item"><img src="assets/image/man_with_cross.svg"></div>
-                        <div class="flex-strength-item"><img src="assets/image/linear-regression.png"></div>          
-                    </div>
-                    <div class="flex-container-row">
-                        <div class="flex-strength-item"><h2>Dianalisis oleh profesional</h2></div>
-                        <div class="flex-strength-item"><h2>Melayani beragam jenis data</h2></div>
-                        <div class="flex-strength-item"><h2>Menggunakan metode yang <i>up-to-date</i></h2></div>
-                    </div>
-                    <div class="flex-container-row">
-                        <div class="flex-strength-item strength-desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eu tempus purus.</p></div>
-                        <div class="flex-strength-item strength-desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eu tempus purus.</p></div>
-                        <div class="flex-strength-item strength-desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eu tempus purus.</p></div>
+                <div id="nav-section">
+                    <div id="menu-container">
+                        <a id="menu" alt="#"><img src="assets/image/ic_menu.svg" alt="menu"></a>
+                        <ul id="menu-items">
+                            <li><a href="#kelebihan" onClick="return scrollToElement('kelebihan', 'id', event);">Kelebihan</a></li>
+                            <li><a href="#project" onClick="return scrollToElement('project', 'id', event);">Project</a></li>
+                            <li><a href="#testimoni" onClick="return scrollToElement('testimoni', 'id', event);">Testimoni</a></li>
+                            <li><a id="nav-item-about" href="#about" onClick="scrollToElement('about', 'id', event);">Tentang</a></li>
+                        </ul>
                     </div>
                 </div>
-            </article>
-            <article id="project">
-                <div class="temp">&nbsp;</div>
-                <h1>Project</h1>
-                <p>Berikut adalah beberapa project yang pernah kami tangani.</p>
-                <div class="flex-container-column">
-                    <div id="project-container">
-                        <div class="slide-item card">
-                            <img src="assets/image/sentiment_analysis.jpeg">
-                            <h2>Analisis Sentimen Pelanggan Terhadap Tweet Endoresement</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eu tempus purus. Nulla faucibus massa vitae lobortis mattis. Etiam egestas odio vehicula porta gravida. Aenean facilisis risus accumsan velit consequat convallis. Aliquam odio eros, mattis at iaculis a, porttitor faucibus nibh. Integer varius vitae sem eu sagittis. Phasellus convallis sodales metus ut euismod. Sed id facilisis nisi, ac rhoncus justo.<br>
-                                <br>Duis sit amet lacinia dolor, vitae vestibulum lacus. Donec quis eleifend libero, a fringilla lorem. Ut aliquet ligula et ullamcorper finibus. Pellentesque imperdiet enim id ultrices auctor. Sed et mi id massa fringilla gravida sed sit amet velit. Nunc porttitor vitae elit sit amet venenatis. Proin tristique magna quis porttitor posuere. Nullam gravida sit amet ipsum vel faucibus.</p>
-                        </div>
-                        <div class="slide-item card">
-                            <img src="assets/image/covid.jpeg">
-                            <h2>Analisis Pengaruh Covid Rate Terhadap Nilai Rupiah</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eu tempus purus. Nulla faucibus massa vitae lobortis mattis. Etiam egestas odio vehicula porta gravida. Aenean facilisis risus accumsan velit consequat convallis. Aliquam odio eros, mattis at iaculis a, porttitor faucibus nibh. Integer varius vitae sem eu sagittis. Phasellus convallis sodales metus ut euismod. Sed id facilisis nisi, ac rhoncus justo.<br>
-                                <br>Duis sit amet lacinia dolor, vitae vestibulum lacus. Donec quis eleifend libero, a fringilla lorem. Ut aliquet ligula et ullamcorper finibus. Pellentesque imperdiet enim id ultrices auctor. Sed et mi id massa fringilla gravida sed sit amet velit. Nunc porttitor vitae elit sit amet venenatis. Proin tristique magna quis porttitor posuere. Nullam gravida sit amet ipsum vel faucibus.</p>
-                        </div>
-                        <div class="slide-item card">
-                            <img src="assets/image/time_series.png">
-                            <h2>Analisis Multiple Time Series untuk Prediksi Return Saham Setelah Pandemi Covid</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eu tempus purus. Nulla faucibus massa vitae lobortis mattis. Etiam egestas odio vehicula porta gravida. Aenean facilisis risus accumsan velit consequat convallis. Aliquam odio eros, mattis at iaculis a, porttitor faucibus nibh. Integer varius vitae sem eu sagittis. Phasellus convallis sodales metus ut euismod. Sed id facilisis nisi, ac rhoncus justo.<br>
-                                <br>Duis sit amet lacinia dolor, vitae vestibulum lacus. Donec quis eleifend libero, a fringilla lorem. Ut aliquet ligula et ullamcorper finibus. Pellentesque imperdiet enim id ultrices auctor. Sed et mi id massa fringilla gravida sed sit amet velit. Nunc porttitor vitae elit sit amet venenatis. Proin tristique magna quis porttitor posuere. Nullam gravida sit amet ipsum vel faucibus.</p>
+            </nav>
+        </header>
+        <main>
+            <script src="assets/action.js"></script>
+            <div id="content">
+                <article id="main">
+                    <img class="flex-main-item" src="assets/image/img_main.svg">
+                    <div class="flex-main-item">
+                        <h1>Solusi dalam menganalisis data</h1>
+                        <p>Anda punya data yang sangat banyak tapi bingung harus diapakan? Berikan lah pada kami!<br>
+                            <br>Dataku akan buatkan analisis yang bisa meningkatkan keuntungan perusahaan Anda.</p>
+                    </div>
+                </article>
+                <article id="kelebihan">
+                    <h1>Kelebihan kami</h1>
+                    <div id="flex-container-column">
+                        <div class="flex-container-row">
+                            <div class="flex-strength-item"><img src="assets/image/pie_chart_x_plot.svg"></div>
+                            <div class="flex-strength-item"><img src="assets/image/man_with_cross.svg"></div>
+                            <div class="flex-strength-item"><img src="assets/image/linear-regression.png"></div>          
                         </div>
                         <div class="flex-container-row">
-                            <div></div>
-                            <button class="btn" onclick="plusDivs(-1)"><i class="ic-left-arrow"></i></button>
-                            <img class="slide-mark" src="assets/image/ic_circle_fill.svg">
-                            <img class="slide-mark" src="assets/image/ic_circle_border.svg">
-                            <img class="slide-mark" src="assets/image/ic_circle_border.svg">
-                            <button class="btn" onclick="plusDivs(1)"><i class="ic-right-arrow"></i></button>
-                            <div></div>
+                            <div class="flex-strength-item"><h2>Dianalisis oleh profesional</h2></div>
+                            <div class="flex-strength-item"><h2>Melayani beragam jenis data</h2></div>
+                            <div class="flex-strength-item"><h2>Menggunakan metode yang <i>up-to-date</i></h2></div>
+                        </div>
+                        <div class="flex-container-row">
+                            <div class="flex-strength-item strength-desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eu tempus purus.</p></div>
+                            <div class="flex-strength-item strength-desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eu tempus purus.</p></div>
+                            <div class="flex-strength-item strength-desc"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eu tempus purus.</p></div>
                         </div>
                     </div>
-                </div>
-                <ul>
-                </ul>
-            </article>
-            <article id="testimoni">
-                <h1>Testimoni</h1>
-                <div id="flex-testi-list-row">
-                    <div class="flex-testi-list-column card">
-                        <div class="flex-testi-item"><img src="assets/image/man.png"></div>
-                        <div class="flex-testi-item"><h2>Budi Pangestu</h2></div>
-                        <div class="flex-testi-item"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></div>
+                </article>
+                <article id="project">
+                    <div class="temp">&nbsp;</div>
+                    <h1>Project</h1>
+                    <p>Berikut adalah beberapa project yang pernah kami tangani.</p>
+                    <div class="flex-container-column">
+                        <div id="project-container">
+                            <div class="slide-item card">
+                                <img src="assets/image/sentiment_analysis.jpeg">
+                                <h2>Analisis Sentimen Pelanggan Terhadap Tweet Endoresement</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eu tempus purus. Nulla faucibus massa vitae lobortis mattis. Etiam egestas odio vehicula porta gravida. Aenean facilisis risus accumsan velit consequat convallis. Aliquam odio eros, mattis at iaculis a, porttitor faucibus nibh. Integer varius vitae sem eu sagittis. Phasellus convallis sodales metus ut euismod. Sed id facilisis nisi, ac rhoncus justo.<br>
+                                    <br>Duis sit amet lacinia dolor, vitae vestibulum lacus. Donec quis eleifend libero, a fringilla lorem. Ut aliquet ligula et ullamcorper finibus. Pellentesque imperdiet enim id ultrices auctor. Sed et mi id massa fringilla gravida sed sit amet velit. Nunc porttitor vitae elit sit amet venenatis. Proin tristique magna quis porttitor posuere. Nullam gravida sit amet ipsum vel faucibus.</p>
+                            </div>
+                            <div class="slide-item card">
+                                <img src="assets/image/covid.jpeg">
+                                <h2>Analisis Pengaruh Covid Rate Terhadap Nilai Rupiah</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eu tempus purus. Nulla faucibus massa vitae lobortis mattis. Etiam egestas odio vehicula porta gravida. Aenean facilisis risus accumsan velit consequat convallis. Aliquam odio eros, mattis at iaculis a, porttitor faucibus nibh. Integer varius vitae sem eu sagittis. Phasellus convallis sodales metus ut euismod. Sed id facilisis nisi, ac rhoncus justo.<br>
+                                    <br>Duis sit amet lacinia dolor, vitae vestibulum lacus. Donec quis eleifend libero, a fringilla lorem. Ut aliquet ligula et ullamcorper finibus. Pellentesque imperdiet enim id ultrices auctor. Sed et mi id massa fringilla gravida sed sit amet velit. Nunc porttitor vitae elit sit amet venenatis. Proin tristique magna quis porttitor posuere. Nullam gravida sit amet ipsum vel faucibus.</p>
+                            </div>
+                            <div class="slide-item card">
+                                <img src="assets/image/time_series.png">
+                                <h2>Analisis Multiple Time Series untuk Prediksi Return Saham Setelah Pandemi Covid</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eu tempus purus. Nulla faucibus massa vitae lobortis mattis. Etiam egestas odio vehicula porta gravida. Aenean facilisis risus accumsan velit consequat convallis. Aliquam odio eros, mattis at iaculis a, porttitor faucibus nibh. Integer varius vitae sem eu sagittis. Phasellus convallis sodales metus ut euismod. Sed id facilisis nisi, ac rhoncus justo.<br>
+                                    <br>Duis sit amet lacinia dolor, vitae vestibulum lacus. Donec quis eleifend libero, a fringilla lorem. Ut aliquet ligula et ullamcorper finibus. Pellentesque imperdiet enim id ultrices auctor. Sed et mi id massa fringilla gravida sed sit amet velit. Nunc porttitor vitae elit sit amet venenatis. Proin tristique magna quis porttitor posuere. Nullam gravida sit amet ipsum vel faucibus.</p>
+                            </div>
+                            <div class="flex-container-row">
+                                <div></div>
+                                <button class="btn" onclick="plusDivs(-1)"><i class="ic-left-arrow"></i></button>
+                                <img class="slide-mark" src="assets/image/ic_circle_fill.svg">
+                                <img class="slide-mark" src="assets/image/ic_circle_border.svg">
+                                <img class="slide-mark" src="assets/image/ic_circle_border.svg">
+                                <button class="btn" onclick="plusDivs(1)"><i class="ic-right-arrow"></i></button>
+                                <div></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="flex-testi-list-column card">
-                        <div class="flex-testi-item"><img src="assets/image/man_2.png"></div>
-                        <div class="flex-testi-item"><h2>Robet Supratno</h2></div>
-                        <div class="flex-testi-item"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></div>
+                    <ul>
+                    </ul>
+                </article>
+                <article id="testimoni">
+                    <h1>Testimoni</h1>
+                    <div id="flex-testi-list-row">
+                        <div class="flex-testi-list-column card">
+                            <div class="flex-testi-item"><img src="assets/image/man.png"></div>
+                            <div class="flex-testi-item"><h2>Budi Pangestu</h2></div>
+                            <div class="flex-testi-item"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></div>
+                        </div>
+                        <div class="flex-testi-list-column card">
+                            <div class="flex-testi-item"><img src="assets/image/man_2.png"></div>
+                            <div class="flex-testi-item"><h2>Robet Supratno</h2></div>
+                            <div class="flex-testi-item"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></div>
+                        </div>
+                        <div class="flex-testi-list-column card">
+                            <div class="flex-testi-item"><img src="assets/image/man_3.png"></div>
+                            <div class="flex-testi-item"><h2>Stepen Budianto</h2></div>
+                            <div class="flex-testi-item"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></div>
+                        </div>
                     </div>
-                    <div class="flex-testi-list-column card">
-                        <div class="flex-testi-item"><img src="assets/image/man_3.png"></div>
-                        <div class="flex-testi-item"><h2>Stepen Budianto</h2></div>
-                        <div class="flex-testi-item"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tempus congue. Fusce non sollicitudin nibh, in feugiat est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></div>
-                    </div>
-                </div>
-            </article>
-        </div>
-        <aside id="about">
-            <h1>About me</h1>
-            <div id="container-about" class="card">
-                <div id="flex-about-head">
-                    <div class="flex-about-item"><img src="assets/image/me.png" alt="yogi"></div>
-                    <div class="flex-about-item"><h2>Yogi Anggara</h2></div>
-                </div>
-                <table>
-                    <tr>
-                        <th>TTL</th>
-                        <td>Bekasi, 24 April 2001</td>
-                    </tr>
-                    <tr>
-                        <th>Pekerjaan</th>
-                        <td>Mahasiswa</td>
-                    </tr>
-                    <tr>
-                        <th>E-mail</th>
-                        <td>yogianggaraaa@gmail.com</td>
-                    </tr>
-                    <tr>
-                        <th>Instagram</th>
-                        <td>@yogianggara52</td>
-                    </tr>
-                </table>
+                </article>
             </div>
-        </aside>
-    </main>
-    <footer>
-        <p>&#169 2021 Dataku | PT. Sukadata Indonesia</p>
-    </footer>
-    <script src="assets/action.js"></script>
-</body>
+            <aside id="about">
+                <h1>About me</h1>
+                <div id="container-about" class="card">
+                    <div id="flex-about-head">
+                        <div class="flex-about-item"><img src="assets/image/me.png" alt="yogi"></div>
+                        <div class="flex-about-item"><h2>Yogi Anggara</h2></div>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>TTL</th>
+                            <td>Bekasi, 24 April 2001</td>
+                        </tr>
+                        <tr>
+                            <th>Pekerjaan</th>
+                            <td>Mahasiswa</td>
+                        </tr>
+                        <tr>
+                            <th>E-mail</th>
+                            <td>yogianggaraaa@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>Instagram</th>
+                            <td>@yogianggara52</td>
+                        </tr>
+                    </table>
+                </div>
+            </aside>
+        </main>
+        <footer>
+            <p>&#169 2021 Dataku | PT. Sukadata Indonesia</p>
+        </footer>
+        <script src="assets/action.js"></script>
+    </body>
+</html>
